@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NewsLetter </title>
+<link rel="stylesheet" href="index1demo.css">
+</head>
+<body>
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+    
+  </ul>
+
+  <div id ="mySidebar" class=""sidebar>
+    <a href="#about">About</a>
+    <a href="#login">Login</a>
+    <a href="#services">Services</a>
+    <a href="#subscribers">Subscribers</a>
+    <a href="#contact">contact</a>
+
+  </div>
+
+  <div id="main" >
+    <h4>Learn how to make a newsletter !</h4>
+    <form>
+    <label>Name :</label>
+    <input type="text" id="myName"/>
+    <br/>
+    <br/>
+    <label>Email :</label>
+    <input type="email" id="myEmail" />
+    <br/>
+    <br/>
+    <button onclick="myfunction()" type="submit" >Subscribe!</button>
+    <h2 id="subscribed"></h2>
+    </form>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card bg-info mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Subscribers</h5>
+            <p class="card-text">3455674543</p>
+            <p class="card-text">Updated 2 min ago !</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card bg-warning mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Viewers</h5>
+            <p class="card-text">345678</p>
+            <p class="card-text">Updated 2 min ago !</p>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

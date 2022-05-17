@@ -1,0 +1,52 @@
+a,b=map(int,input().split())
+
+for _ in range (int(input())
+
+lis=list(map(int,input().split()))[:length_till_u_want_data]
+
+use abs keyword to get absolute value 
+
+swaping technique - a,b=b,a
+
+minimum = min(a,b)
+
+to count how many 1 or 0 present =   s.count('1')
+
+use sort keyword 
+use min keyword
+use % keyword
+
+--append-- in list is to add single item 
+for adding more item use --extend ---keyword
+
+parenthesis have higher preference when it comes to many operators at same time.
+then exponential(**) have higher priority
+multiplication and division(*,/,//,%)
+then adddition and subtraction (+,-)
+but when many of same type appear like multiplication and division at same query then from left side whichever comes first will work first.
+
+when to create function with default argument if user forget to give then use this syntax:
+def nameoffunction(arg1=default value user wish to give, arg2=default value user want to give)
+
+suppose user is suppose to give marks of a student but dont know how many marks user actually want so user will just give the marks user had so for this use asterisk(*) symbol befor the argument for example:
+def nameoffunction(name="name",age=20,*marks):
+at the time of calling function type like this :
+nameoffunction("manan",22,30,40,50)
+so it will give a tupple of   marks  as 30,40,50
+but if want to take many input as dictionary format then use double asterisk(**) for example:
+def nameoffunction(name="name",age=20,**marks):
+at the time of calling function type like this :
+nameoffunction("manan",22,maths=30,physics=40,science=50)
+it will now show marks as in dictionary format
+
+encapsulation:
+public(use variable as it is ) , private(use double underscore to make it private for ex: __private_variable)
+
+
+inheritance:
+use super keyword to call the parent constructure 
+super().__init__(self)
+
+and when use multiple inheritance it will call the constructure which is called befor in the parenthesis. and to call all the parent class constructure use there class name in place of super .
+
+
